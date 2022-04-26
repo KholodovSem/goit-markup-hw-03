@@ -1,0 +1,247 @@
+/* Цвета которые будут задействованы в макете */
+
+:root {
+  /* Body */
+  --header-body: #ffffff;
+  --hero-body: #2f303a;
+  --first-section-body: #e5e5e5;
+  --secont-section-body: #f5f4fa;
+  --footer-body: #2f303a;
+
+  /* Text */
+  --hero-text: #ffffff;
+  --logo-text-black: #000000;
+  --logo-text-blue: #2196f3;
+  --header-text: #212121;
+  --paragraph-text: #757575;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  color: #757575;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--logo-text-blue);
+}
+
+a:focus {
+  color: var(--logo-text-blue);
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--header-text);
+}
+
+/* !!!Header style!!! */
+
+.cap {
+  background-color: var(--header-body);
+  line-height: 1.17;
+}
+
+/* Logo */
+.logo {
+  color: var(--logo-text-black);
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.logo-blue {
+  color: var(--logo-text-blue);
+}
+
+.logo:visited,
+.logo:hover {
+  color: var(--logo-text-black);
+}
+
+.logo-blue:visited {
+  color: var(--logo-text-blue);
+}
+
+/* Nav Bar */
+.navigationtabs {
+  color: var(--header-text);
+}
+
+.navigationtabs .link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navigationtabs .link.active {
+  color: var(--logo-text-blue);
+}
+
+.navigationtabs .link:hover,
+.navigationtabs .link:focus {
+  color: var(--logo-text-blue);
+}
+
+/* Mail and Phone */
+.mail {
+  color: var(--paragraph-text);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.phone {
+  color: var(--paragraph-text);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* !!!Main!!! */
+/* Hero Section */
+.hero-section {
+  background-color: var(--hero-body);
+}
+
+.hero-text {
+  color: var(--hero-text);
+  font-weight: 900;
+  line-height: 1.36;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--logo-text-blue);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.second-section-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.second-section-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.84;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.84;
+  letter-spacing: 0.03em;
+}
+/* !!!Footer!!! */
+
+.basement {
+  background-color: var(--footer-body);
+}
+
+/* Footerlogo */
+.footer-logo {
+  color: var(--header-body);
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+}
+
+.footer-logo-blue {
+  color: var(--logo-text-blue);
+}
+
+.footer-logo:visited,
+.footer-logo:hover {
+  color: var(--header-body);
+}
+
+/* Adress */
+
+.office {
+  color: #ffffff;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+/* Categories */
+
+.categories-button {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.categories-button:hover,
+.categories-button:focus {
+  background-color: var(--logo-text-blue);
+  color: var(--hero-text);
+}
+
+.categories-button.current {
+  background-color: var(--logo-text-blue);
+  color: var(--hero-text);
+}
+
+.work-exampl-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-style: normal;
+}
+
+.work-example-paragraph {
+  font-size: 16px;
+  line-height: 1.87;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
