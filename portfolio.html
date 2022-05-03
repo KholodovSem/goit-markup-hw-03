@@ -19,20 +19,20 @@
   </head>
   <body>
     <!-- Шапка -->
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="nav-box">
           <a href="index.html" class="logo"
             ><span class="logo blue">Web</span>Studio</a
           >
           <ul class="header-link">
-            <li class="item links">
-              <a href="" class="link">Студия</a>
+            <li class="itemlinks">
+              <a href="" class="link active">Студия</a>
             </li>
-            <li class="item links">
-              <a href="./portfolio.html" class="link active">Портфолио</a>
+            <li class="itemlinks">
+              <a href="./portfolio.html" class="link">Портфолио</a>
             </li>
-            <li class="item links"><a href="" class="link">Контакты</a></li>
+            <li class="itemlinks"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="adress">
@@ -41,7 +41,7 @@
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item adress">
             <a href="callto:+380961111111" class="mail-phone"
               >+38 096 111 11 11</a
             >
@@ -51,7 +51,7 @@
     </header>
     <!-- Мейн -->
     <main>
-      <section>
+      <section class="section">
         <div class="portfolio-box">
           <h1 class="portfolio-title">Categories</h1>
           <ul class="portfolio-list portfolio-button-list">
@@ -73,61 +73,112 @@
           </ul>
           <ul class="portfolio-list exemple">
             <li class="portfolio-item">
-              <img src="./images/website.jpg" alt="Веб-сайт" width="370" />
-              <h3 class="exemple-header">Технокряк</h3>
-              <p class="portfolio-paragraph">Веб-сайт</p>
+              <img
+                src="./images/website.jpg"
+                alt="Веб-сайт"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Технокряк</h3>
+                <p class="portfolio-paragraph">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
                 src="./images/poster.jpg"
                 alt="Два баскетболиста на постере"
                 width="370"
+                class="card-image no-gap"
               />
-              <h3 class="exemple-header">Постер New Orlean vs Golden Star</h3>
-              <p class="portfolio-paragraph">Дизайн</p>
+              <div class="card-border">
+                <h3 class="exemple-header">Постер New Orlean vs Golden Star</h3>
+                <p class="portfolio-paragraph">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
                 src="./images/seafood.jpg"
                 alt="Лого ресторана"
                 width="370"
+                class="card-image no-gap"
               />
-              <h3 class="exemple-header">Ресторан Seafood</h3>
-              <p class="portfolio-paragraph">Приложение</p>
+              <div class="card-border">
+                <h3 class="exemple-header">Ресторан Seafood</h3>
+                <p class="portfolio-paragraph">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <img src="./images/headphones.jpg" alt="Наушники" width="370" />
-              <h3 class="exemple-header">Проект Prime</h3>
-              <p class="portfolio-paragraph">Маркетинг</p>
+              <img
+                src="./images/headphones.jpg"
+                alt="Наушники"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Проект Prime</h3>
+                <p class="portfolio-paragraph">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <img src="./images/boxes.jpg" alt="Две коробки" width="370" />
-              <h3 class="exemple-header">Проект Boxes</h3>
-              <p class="portfolio-paragraph">Приложение</p>
+              <img
+                src="./images/boxes.jpg"
+                alt="Две коробки"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Проект Boxes</h3>
+                <p class="portfolio-paragraph">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
                 src="./images/scndwebsite.jpg"
                 alt="Второй веб-сайт"
                 width="370"
+                class="card-image no-gap"
               />
-              <h3 class="exemple-header">Inspiration has no Borders</h3>
-              <p class="portfolio-paragraph">Веб-сайт</p>
+              <div class="card-border">
+                <h3 class="exemple-header">Inspiration has no Borders</h3>
+                <p class="portfolio-paragraph">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <img src="./images/magazine.jpg" alt="Журнал" width="370" />
-              <h3 class="exemple-header">Издание Limited Edition</h3>
-              <p class="portfolio-paragraph">Дизайн</p>
+              <img
+                src="./images/magazine.jpg"
+                alt="Журнал"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Издание Limited Edition</h3>
+                <p class="portfolio-paragraph">Дизайн</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <img src="./images/lab.jpg" alt="Лого LAB" width="370" />
-              <h3 class="exemple-header">Проект LAB</h3>
-              <p class="portfolio-paragraph">Маркетинг</p>
+              <img
+                src="./images/lab.jpg"
+                alt="Лого LAB"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Проект LAB</h3>
+                <p class="portfolio-paragraph">Маркетинг</p>
+              </div>
             </li>
             <li class="portfolio-item">
-              <img src="./images/business.jpg" alt="Лого LAB" width="370" />
-              <h3 class="exemple-header">Growing Business</h3>
-              <p class="portfolio-paragraph">Приложение</p>
+              <img
+                src="./images/business.jpg"
+                alt="Лого LAB"
+                width="370"
+                class="card-image no-gap"
+              />
+              <div class="card-border">
+                <h3 class="exemple-header">Growing Business</h3>
+                <p class="portfolio-paragraph">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
