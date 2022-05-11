@@ -42,6 +42,8 @@ a {
   border-radius: 4px;
   padding: 10px 32px;
   border: 2px solid transparent;
+
+  cursor: pointer;
 }
 
 /* Контейнер */
@@ -49,7 +51,12 @@ a {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 94px 15px;
+  padding: 0px 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Хедер */
@@ -208,6 +215,10 @@ a {
 
 /* Чем мы занимаемся */
 
+.section.about {
+  padding-top: 0;
+}
+
 .title.second {
   font-weight: 700;
   font-size: 36px;
@@ -222,9 +233,9 @@ a {
 
 .list.services {
   display: flex;
+  justify-content: space-between;
 }
 
-.list.services li:not(:last-child),
 .list.team li:not(:last-child) {
   margin-right: 30px;
 }
@@ -391,6 +402,7 @@ a {
   padding: 6px 22px;
 
   border: 0;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
