@@ -8,6 +8,8 @@
   --hero-title-color: #ffffff;
   --basement: #2f303a;
   --portfolio-border-color: #eeeeee;
+  --portfolio-btn-hover-color: #2196f3;
+  --portfolio-btn-hover-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -34,14 +36,14 @@ a {
   color: var(--hero-title-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   letter-spacing: 0.06em;
 
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--portfolio-btn-hover-color);
+  box-shadow: var(--portfolio-btn-hover-shadow);
   border-radius: 4px;
   padding: 10px 32px;
-  border: 2px solid transparent;
+  border: 0;
 
   cursor: pointer;
 }
@@ -117,6 +119,7 @@ a {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  font-style: normal;
 
   color: var(--main-text-color);
 }
@@ -165,13 +168,12 @@ a {
 }
 
 /* Герой */
-.container.hero {
-  padding: 200px 15px;
-}
 
 .hero-section {
   background-color: var(--hero-background);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -179,8 +181,10 @@ a {
   width: 696px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1.36;
 
+  margin-top: 0;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 0.06em;
@@ -211,16 +215,12 @@ a {
 
   margin-top: 0;
   margin-bottom: 0;
-  min-width: 270px;
-}
-
-.benefits.list li:not(:last-child) {
-  margin-right: 30px;
-  margin-left: 0;
+  max-width: 270px;
 }
 
 .benefits.list {
   display: flex;
+  justify-content: space-between;
 }
 
 /* Чем мы занимаемся */
@@ -309,7 +309,6 @@ a {
 }
 
 .footer.links {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -317,7 +316,6 @@ a {
 }
 
 .footer-adress {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
