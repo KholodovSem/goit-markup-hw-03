@@ -246,14 +246,11 @@ a {
   justify-content: space-between;
 }
 
-.list.team li:not(:last-child) {
-  margin-right: 30px;
-}
-
 /* Наша команда */
 
 .list.team {
   display: flex;
+  justify-content: space-between;
 }
 
 .section.team {
